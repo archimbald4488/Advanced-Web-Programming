@@ -1,0 +1,24 @@
+extends layout
+
+block content
+  nav
+    div(class="nav-wrapper")
+      a(href="#" class="brand-logo right") Logo
+      ul(id="nav-mobile" class="left hide-on-med-and-down")
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">JavaScript</a></li>
+        <li><input type="search" id="search-bar" name="q"><button id="s-button">Search</button></li>
+  div(class="container")
+    div(id="recipes" class="col")
+      h1(id="name")= title 
+    div(class="col")
+      input(type="text" id="name-text")
+      h4 Ingredients
+      textarea(id="ingredients-text")
+      button(class="btn" id="add-ingredient" type="button") Add ingredient 
+      h4 instructions
+      textarea(id="instructions-text")
+      button(class="btn" id="add-instruction" type="button") Add instruction
+      button(class="btn" id="submit" type="submit") Submit
+      input(type="file" id="image-input" accept="image/*" multiple)

@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  div
+    input(id="input-name")
+    input(id="input-task")
+    button(id="submit-data") Add 
+  div 
+    input(id="search-name")
+    button(id="search") Search
+  div(id="queries")
