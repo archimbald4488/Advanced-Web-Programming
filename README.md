@@ -1,6 +1,6 @@
 # Advanced Web Programming
 
-## Javascriptillä/Typescriptillä toteutettuja projekteja
+## Javascriptillä/Typescriptillä toteutettuja ohjelmia
 
 #### Code/Viikot ja Harjoitustyö<br>
-Nämä kansiot sisältävät ohjelmia luotu yliopistokurssia varten.
+Nämä kansiot sisältävät ohjelmia, jotka ovat luotu yliopistokurssia varten. 
